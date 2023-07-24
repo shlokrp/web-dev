@@ -1,4 +1,4 @@
-# Web Development Learning Journey
+# Web Development Journey
 
 ## Introduction 
 
@@ -24,7 +24,7 @@ The "Lecture Notebook" folder contains the code and resources for each video/lec
 You can access the code and project details for each video by visiting the respective repositories:
 
 - Link to Project 1 Repo:: https://github.com/shlokrp/resume
-- Link to Project 2 Repo: https://github.com/shlokrp/recipe-project
+- Link to Project 2 Repo: https://github.com/shlokrp/recipe-website
 
 
 I'll keep updating this in the journey to become a full stack developer!! 🦄
