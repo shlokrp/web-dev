@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flexbox </title>
+    <style>
+        *{ margin: 0px;
+            padding: 0px;
+        }
+
+        .container{
+            background-color: pink;
+            border: 2px solid black;
+            width: 500px;
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .leftbox{
+            background-color: #CCF381;
+            border: 1px solid black;
+            margin: 5px;
+            padding: 5px;
+            width: 47%;
+
+        }
+
+        p{
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        img{
+            background-color: darkslategray;
+            width: 230px;
+        }
+
+        .rightbox{
+            background-color:cadetblue;
+            border: 1px solid black;
+            margin: 5px;
+            padding: 5px;
+            width: 47%;
+        }
+        
+        @media (max-width: 650px){
+
+        .container{
+            flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="leftbox">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, omnis.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, ipsum.
+        </p>
+    </div>
+    <div class="rightbox">
+        <img src="png pfp.jpg" alt="memoji">
+    </div>
+</div>
+    
+</body>
+</html>

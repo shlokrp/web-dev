@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .box{
+            height: 300px;
+            width: 300px;
+            background-color: bisque;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: large;
+            border-radius: 10px;
+            transition: all 3s linear 0s;  
+
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: cadetblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box:hover{
+            /* transform: skew(30deg) */
+            /* transform: rotate(60deg); */
+            transform: translate(250px, 0);
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Boring Sunday!
+        </div>
+    </div>
+</body>
+</html>

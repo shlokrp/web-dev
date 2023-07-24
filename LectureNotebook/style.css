@@ -1,0 +1,25 @@
+/* h1{
+    color: cadetblue;
+    /*align-self: left;
+}*/
+body{
+    background-color: black;
+}
+#set{
+    box-sizing: border-box;
+    background-color: aqua;
+    height: 400px;
+    width: 300px;
+    background-image: url("png pfp.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+    position: fixed;
+    top: 50px;
+    right: 0px;
+
+}
+p{
+    color: white;
+}
