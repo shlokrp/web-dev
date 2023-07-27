@@ -17,6 +17,8 @@ The "Lecture Notebook" folder contains the code and resources for each video/lec
 |  Resume                            | A simple resume made using simple HTML Tags.                                      |
 |  Recipe Website                    | A wesbite for sharing recipes for famous Pune snacks made using CSS and Flexbox.  |
 |  Cards                             | 3 Detailed cards using CSS for various businesses                                 |
+|  Amazon.com Clone                  |      .                                                                            |
+   
    
 
 ## How to Access Projects
@@ -26,6 +28,7 @@ You can access the code and project details for each video by visiting the respe
 - Link to Project 1 Repo:: https://github.com/shlokrp/resume
 - Link to Project 2 Repo: https://github.com/shlokrp/recipe-website
 - Link to Project 3 Repo: https://github.com/shlokrp/cards-using-CSS
+- Link to Project 4 Repo: https://github.com/shlokrp/amazon-clone
 
 
 
